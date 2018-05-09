@@ -1,0 +1,51 @@
+buildscript {
+    ext.kotlin_version = '1.2.40'
+
+    repositories {
+        jcenter()
+        google()
+        maven {
+            url 'http://oss.jfrog.org/artifactory/oss-snapshot-local'
+        }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.1.2'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath 'io.realm:realm-gradle-plugin:5.2.0-SNAPSHOT'
+        classpath 'com.bmuschko:gradle-nexus-plugin:2.3.1'
+
+        // for firebase
+        classpath 'com.google.gms:google-services:3.2.0'
+    }
+}
+
+allprojects {
+
+    repositories {
+        jcenter()
+        google()
+        maven {
+            url 'http://oss.jfrog.org/artifactory/oss-snapshot-local'
+        }
+    }
+
+
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+ext {
+    // App dependencies
+
+    junitVersion = '4.12'
+    supportVersion = '27.1.1'
+    buildToolsVersion = '27.0.3'
+    glideVersion = '4.6.1'
+    firebaseVersion = '15.0.0'
+
+    minSdkVersion = 16
+    targetSdkVersion = 27
+    compileSdkVersion = 27
+}

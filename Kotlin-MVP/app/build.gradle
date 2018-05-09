@@ -1,0 +1,81 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'realm-android'
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+    lintOptions {
+        abortOnError false
+    }
+    defaultConfig {
+        applicationId "com.crickbit"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.compileSdkVersion
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+// This is added automatically if Kotlin is registered in the project, but Kotlin extension functions
+// for Realm can be excluded if needed.
+realm {
+    kotlinExtensionsEnabled = true
+}
+
+// enable @ParametersAreNonnullByDefault annotation. See https://blog.jetbrains.com/kotlin/2017/09/kotlin-1-1-50-is-out/
+tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).all {
+    kotlinOptions {
+        freeCompilerArgs = ["-Xjsr305=strict"]
+    }
+}
+
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    implementation project(':frag-nav')
+    // implementation 'com.ncapdevi:frag-nav:2.2.1'
+
+    implementation "com.android.support:appcompat-v7:$rootProject.ext.supportVersion"
+    implementation "com.android.support:design:$rootProject.ext.supportVersion"
+    implementation "com.roughike:bottom-bar:2.3.1"
+
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+    implementation "com.android.support:cardview-v7:$supportVersion"
+    //implementation "com.android.support:coordinatorlayout:$supportVersion"
+    implementation "com.github.bumptech.glide:glide:$glideVersion"
+    annotationProcessor "com.github.bumptech.glide:compiler:$glideVersion"
+    implementation project(':navigation-toolbar')
+
+
+
+    implementation 'uk.co.chrisjenx:calligraphy:2.3.0'
+    implementation 'de.hdodenhof:circleimageview:2.1.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+
+    //for fire base
+    implementation "com.google.firebase:firebase-core:$firebaseVersion"
+
+    // for the material exit text
+    implementation 'com.rengwuxian.materialedittext:library:2.1.4'
+
+
+
+
+    testImplementation "junit:junit:$rootProject.ext.junitVersion"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}
+apply plugin: 'com.google.gms.google-services'
+

@@ -1,0 +1,41 @@
+{
+  "project_info": {
+    "project_number": "853914434711",
+    "firebase_url": "https://placepicker3.firebaseio.com",
+    "project_id": "placepicker3"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:853914434711:android:bc69780afb48f0d2",
+        "android_client_info": {
+          "package_name": "com.crickbit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "853914434711-flc6cdim9ea8uem143vgjihfpu96j00r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBehmgqAgOghw3tpssMy46jLlu__UGKq2E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,117 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">120dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+    <dimen name="decor_bottom">5dp</dimen>
+    <dimen name="title_left_offset">-20dp</dimen>
+    <dimen name="line_right_offset">20dp</dimen>
+    <dimen name="line_bottom_offset">20dp</dimen>
+    <dimen name="line_title_offset">10dp</dimen>
+
+
+
+
+
+    <!-- Screen margins -->
+
+    <!--for the screen left right-->
+
+    <dimen name="m_screen_6d">6dp</dimen>
+    <dimen name="m_screen_8d">8dp</dimen>
+    <dimen name="m_screen_14d">14dp</dimen>
+    <dimen name="m_screen_20d">20dp</dimen>
+    <dimen name="m_screen_28d">28dp</dimen>
+    <dimen name="m_screen_42d">42dp</dimen>
+    <dimen name="m_screen_56d">56dp</dimen>
+    <dimen name="m_screen_70d">70dp</dimen>
+
+    <!--for the base menu screen-->
+    <!--for the common -->
+    <dimen name="bsm_status_bar_24dp">24dp</dimen>
+    <dimen name="bsm_header_menu43d">40dp</dimen>
+    <dimen name="bsm_header_43d">50dp</dimen>
+    <dimen name="bsm_header_43h">56dp</dimen>
+    <dimen name="bsm_header_43m">56dp</dimen>
+    <dimen name="bsm_header_txt_18d">24dp</dimen>
+    <dimen name="bsm_header_txt_18s">20dp</dimen>
+    <dimen name="bsm_sub_header_txt_15d">15dp</dimen>
+    <dimen name="bsm_header_mrgn_5d">5dp</dimen>
+
+    <!--common screen margine-->
+    <dimen name="m_line_1dp">0.5dp</dimen>
+    <dimen name="m_divide_line_1dp">1dp</dimen>
+    <dimen name="m_1dp">1dp</dimen>
+    <dimen name="m_2dp">2dp</dimen>
+    <dimen name="m_3dp">3dp</dimen>
+    <dimen name="m_5dp">5dp</dimen>
+    <dimen name="m_6dp">6dp</dimen>
+    <dimen name="m_7dp">7dp</dimen>
+    <dimen name="m_8dp">8dp</dimen>
+
+    <dimen name="m_25dp_">-25dp</dimen>
+
+
+    <dimen name="m_10dp">10dp</dimen>
+    <dimen name="m_15dp">15dp</dimen>
+    <dimen name="m_20dp">20dp</dimen>
+    <dimen name="m_25dp">25dp</dimen>
+    <dimen name="m_30dp">30dp</dimen>
+    <dimen name="m_35dp">35dp</dimen>
+    <dimen name="m_40dp">40dp</dimen>
+    <dimen name="m_45dp">45dp</dimen>
+    <dimen name="m_50dp">50dp</dimen>
+    <dimen name="m_55dp">55dp</dimen>
+    <dimen name="m_60dp">60dp</dimen>
+    <dimen name="m_65dp">65dp</dimen>
+    <dimen name="m_70dp">70dp</dimen>
+    <dimen name="m_75dp">75dp</dimen>
+    <dimen name="m_80dp">80dp</dimen>
+    <dimen name="m_90dp">90dp</dimen>
+    <dimen name="m_100dp">100dp</dimen>
+    <dimen name="m_110dp">110dp</dimen>
+    <dimen name="m_120dp">120dp</dimen>
+    <dimen name="m_130dp">130dp</dimen>
+    <dimen name="m_140dp">140dp</dimen>
+    <dimen name="m_150dp">150dp</dimen>
+    <dimen name="m_160dp">160dp</dimen>
+    <dimen name="m_170dp">170dp</dimen>
+    <dimen name="m_180dp">180dp</dimen>
+    <dimen name="m_190dp">190dp</dimen>
+    <dimen name="m_200dp">200dp</dimen>
+    <dimen name="m_220dp">220dp</dimen>
+    <dimen name="m_250dp">250dp</dimen>
+    <dimen name="m_280dp">280dp</dimen>
+
+    <dimen name="m_12dp">12dp</dimen>
+    <dimen name="m_14dp">14dp</dimen>
+    <dimen name="m_16dp">16dp</dimen>
+    <dimen name="m_18dp">18dp</dimen>
+    <dimen name="m_24dp">24dp</dimen>
+
+
+    <!--common text size don't change-->
+    <dimen name="text_8s">8dp</dimen>
+    <dimen name="text_10s">10dp</dimen>
+    <dimen name="text_12s">11dp</dimen>
+    <dimen name="text_14s">14dp</dimen>
+    <dimen name="text_16s">15dp</dimen>
+    <dimen name="text_18s">18dp</dimen>
+    <dimen name="text_20s">20dp</dimen>
+    <dimen name="text_22s">22dp</dimen>
+    <dimen name="text_24s">24dp</dimen>
+    <dimen name="text_28s">26dp</dimen>
+    <dimen name="text_30s">30dp</dimen>
+    <dimen name="text_32s">32dp</dimen>
+    <dimen name="text_34s">34dp</dimen>
+    <dimen name="text_40s">40dp</dimen>
+
+
+
+
+</resources>

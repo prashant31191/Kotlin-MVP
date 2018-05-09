@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="login_panel">#F65C44</color>
+    <color name="white">#FFFFFF</color>
+    <color name="tr_80_white">#A0FFFFFF</color>
+    <color name="semi_white">#BBBBBB</color>
+    <color name="black">#000000</color>
+    <color name="transcluent_color">#55232323</color>
+
+
+    <color name="clrBlack1">#111</color>
+    <color name="clrBlack3">#333</color>
+    <color name="clrBlack6">#666</color>
+    <color name="clrBlack9">#999</color>
+
+    <color name="clrTxtLightBlack">#6E6E6E</color>
+
+    <color name="clrEtHint">#6E6E6E</color>
+    <color name="clrEtText">#111</color>
+    <color name="clrEtPrimaryLineText">#303F9F</color>
+    <color name="clrEtDisableUnderLine">#79303F9F</color>
+
+
+
+
+
+</resources>
