@@ -2,13 +2,13 @@ package com.crickbit
 
 import android.app.Application
 import io.realm.Realm
-import me.immathan.kotlinlogin.data.AppDataManager
-import me.immathan.kotlinlogin.data.DataManager
-import me.immathan.kotlinlogin.data.network.ApiHelper
-import me.immathan.kotlinlogin.data.network.AppApiHelper
-import me.immathan.kotlinlogin.data.network.RestAdapter
-import me.immathan.kotlinlogin.data.preference.AppPreferenceHelper
-import me.immathan.kotlinlogin.data.preference.PreferenceHelper
+import com.crickbit.mvp.data.AppDataManager
+import com.crickbit.mvp.data.DataManager
+import com.crickbit.mvp.data.network.ApiHelper
+import com.crickbit.mvp.data.network.AppApiHelper
+import com.crickbit.mvp.data.network.RestAdapter
+import com.crickbit.mvp.data.preference.AppPreferenceHelper
+import com.crickbit.mvp.data.preference.PreferenceHelper
 import uk.co.chrisjenx.calligraphy.CalligraphyConfig
 
 class MyApplication : Application() {

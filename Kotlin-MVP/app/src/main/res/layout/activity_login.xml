@@ -142,6 +142,7 @@
                 <!--app:layout_anchor="@+id/loginPanel"
                 app:layout_anchorGravity="bottom|center"-->
                 <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/forgotPassword"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/login"
