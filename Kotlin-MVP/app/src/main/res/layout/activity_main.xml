@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/fab_margin"
         android:layout_gravity="end|bottom"
-        app:layout_behavior="com.ramotion.navigationtoolbar.example.FABBehavior"
+        app:layout_behavior="com.crickbit.demo.animlist.FABBehavior"
         app:srcCompat="@android:drawable/ic_dialog_email" />
 
 </com.ramotion.navigationtoolbar.NavigationToolBarLayout>

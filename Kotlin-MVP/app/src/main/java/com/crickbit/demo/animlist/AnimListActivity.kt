@@ -15,6 +15,7 @@ import com.ramotion.navigationtoolbar.HeaderLayout
 import com.ramotion.navigationtoolbar.HeaderLayoutManager
 import com.ramotion.navigationtoolbar.NavigationToolBarLayout
 import com.ramotion.navigationtoolbar.SimpleSnapHelper
+
 import com.crickbit.demo.animlist.header.HeaderAdapter
 import com.crickbit.demo.animlist.header.HeaderItemTransformer
 import com.crickbit.demo.animlist.pager.ViewPagerAdapter

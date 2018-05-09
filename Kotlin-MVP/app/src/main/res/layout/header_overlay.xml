@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    app:layout_behavior="com.ramotion.navigationtoolbar.example.header.HeaderOverlayBehavior">
+    app:layout_behavior="com.crickbit.demo.animlist.header.HeaderOverlayBehavior">
 
     <FrameLayout
         android:id="@+id/texts"
