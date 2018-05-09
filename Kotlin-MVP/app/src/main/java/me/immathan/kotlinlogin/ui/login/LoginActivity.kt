@@ -7,7 +7,6 @@ import android.view.inputmethod.EditorInfo
 import android.widget.TextView
 import com.crickbit.MyApplication
 import com.crickbit.R
-import com.crickbit.R.id.etPassword
 import kotlinx.android.synthetic.main.activity_login.*
 import me.immathan.kotlinlogin.ui.base.BaseActivity
 import me.immathan.kotlinlogin.ui.main.MainActivity

@@ -2,12 +2,7 @@ package me.immathan.kotlinlogin.data.preference
 
 interface PreferenceHelper {
 
-    fun getToken(): String?
-
-    fun saveToken(token: String)
-
-    fun saveName(name: String)
-
-    fun getName(): String?
+    fun savePrefString(key: String?, value: String?)
+    fun getPrefString(key: String?): String?
 
 }

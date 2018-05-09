@@ -14,20 +14,15 @@ class AppPreferenceHelper(context: Context, fileName: String, private var shared
         sharedPreferences = context.getSharedPreferences(fileName, Context.MODE_PRIVATE)
     }
 
-    override fun getToken(): String? = sharedPreferences?.getString(TOKEN_KEY, "")
-
-    override fun saveToken(token: String) {
+    override fun savePrefString(key: String?, value: String?) {
         val editor: SharedPreferences.Editor = sharedPreferences!!.edit()
-        editor.putString(TOKEN_KEY, token)
+        editor.putString(key, value)
         editor.apply()
     }
 
-    override fun saveName(name: String) {
-        val editor: SharedPreferences.Editor = sharedPreferences!!.edit()
-        editor.putString(NAME, name)
-        editor.apply()
-    }
+    override fun getPrefString(key: String?): String? = sharedPreferences?.getString(key, "")
 
-    override fun getName(): String? = sharedPreferences?.getString(NAME, "")
+
+
 
 }

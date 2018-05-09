@@ -1,7 +1,6 @@
 package com.crickbit
 
 import android.app.Application
-
 import io.realm.Realm
 import me.immathan.kotlinlogin.data.AppDataManager
 import me.immathan.kotlinlogin.data.DataManager
@@ -30,7 +29,7 @@ class MyApplication : Application() {
         Realm.init(this)
 
         val calligraphyConfig = CalligraphyConfig.Builder()
-                .setDefaultFontPath("fonts/GothamRoundedMedium.ttf")
+                //.setDefaultFontPath("fonts/GothamRoundedMedium.ttf")
                 .setFontAttrId(R.attr.fontPath)
                 .build()
         CalligraphyConfig.initDefault(calligraphyConfig)

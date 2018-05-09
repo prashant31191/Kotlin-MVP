@@ -6,6 +6,7 @@ import me.immathan.kotlinlogin.data.DataManager
 import me.immathan.kotlinlogin.data.LoginResponse
 import me.immathan.kotlinlogin.ui.base.BasePresenter
 import me.immathan.kotlinlogin.utils.Logger
+import me.immathan.kotlinlogin.utils.PreferenceKeys
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -48,8 +49,10 @@ class LoginPresenter<V : LoginMvpView>(private val dataManager: DataManager) : B
                 mvpView?.hideProgress()
                 if (response != null && response.isSuccessful) {
                     mvpView?.openMainActivity()
-                    dataManager.saveToken(response.body()!!.token)
-                    dataManager.saveName(response.body()!!.name)
+
+                    dataManager.savePrefString(PreferenceKeys().pref_token, response.body()!!.token)
+                    dataManager.savePrefString(PreferenceKeys().pref_name, response.body()!!.name)
+
                     Logger.d(TAG, "Login success")
                 } else {
                     if(response?.errorBody() != null) {
@@ -92,7 +95,7 @@ class LoginPresenter<V : LoginMvpView>(private val dataManager: DataManager) : B
     }
 
     override fun isLoggedIn() {
-        if(!dataManager.getToken()?.isEmpty()!!) {
+        if(!dataManager.getPrefString(PreferenceKeys().pref_token)?.isEmpty()!!) {
             mvpView?.openMainActivity()
         }
     }

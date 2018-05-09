@@ -46,36 +46,6 @@ dependencies {
 }
 
 
-modifyPom {
-    project {
-        name 'Navigation Toolbar for Android'
-        description 'Navigation toolbar is a slide-modeled UI navigation controller. http://ramotion.com'
-        url 'https://github.com/Ramotion/navigation-toolbar-android'
-        inceptionYear '2018'
-
-        scm {
-            url 'https://github.com/Ramotion/navigation-toolbar-android'
-            connection 'scm:git@github.com:Ramotion/navigation-toolbar-android.git'
-            developerConnection 'scm:git@github.com:Ramotion/navigation-toolbar-android.git'
-        }
-
-        licenses {
-            license {
-                name 'The MIT License (MIT)'
-                url 'https://opensource.org/licenses/mit-license.php'
-                distribution 'repo'
-            }
-        }
-
-        developers {
-            developer {
-                id 'dvg4000'
-                name 'Dmitry Grishechkin'
-                email 'dvgrishechkin@yandex.ru'
-            }
-        }
-    }
-}
 
 nexus {
     sign = true
