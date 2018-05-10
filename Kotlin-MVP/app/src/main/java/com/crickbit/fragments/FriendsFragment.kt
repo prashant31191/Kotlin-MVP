@@ -3,9 +3,6 @@ package com.crickbit.fragments
 import android.os.Bundle
 import android.view.View
 
-/**
- * Created by niccapdevila on 3/26/16.
- */
 class FriendsFragment : BaseFragment() {
 
 

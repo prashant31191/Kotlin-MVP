@@ -38,17 +38,17 @@ class NavDrawerActivity : AppCompatActivity(), NavigationView.OnNavigationItemSe
         navigationView.setNavigationItemSelectedListener(this)
 
         val fragments = listOf(
-                RecentsFragment.newInstance(0),
+                HomeFragment.newInstance(0),
                 FavoritesFragment.newInstance(0),
                 NearbyFragment.newInstance(0),
                 FriendsFragment.newInstance(0),
                 FoodFragment.newInstance(0),
-                RecentsFragment.newInstance(0),
+                HomeFragment.newInstance(0),
                 FavoritesFragment.newInstance(0),
                 NearbyFragment.newInstance(0),
                 FriendsFragment.newInstance(0),
                 FoodFragment.newInstance(0),
-                RecentsFragment.newInstance(0),
+                HomeFragment.newInstance(0),
                 FavoritesFragment.newInstance(0))
 
         fragNavController.apply {

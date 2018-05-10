@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Base application theme. -->
    <!-- <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -71,7 +71,7 @@
         <item name="android:singleLine">true</item>
 
         <item name="android:textCursorDrawable">@drawable/text_cursor_cyan</item>
-        <item name="android:digits">aãâáàbcçdeéfghiíjklmnoõôóòpqrstuvwxyzAÃÂÁÀBCÇDEÉFGHIÍJKLMNOÕÔÓÒPQRSTUVWXYZ@. -_\n: /?\\</item>
+        <item name="android:digits">ABCČĆDĐEFGHIJKLMNOPQRSŠTUVWXYZŽabcčćdđefghijklmnopqrsštuvwxyzžАБВГҐДЂЕЁЄЖЗЅИІЇЙЈКЛЉМНЊОПРСТЋУЎФХЦЧЏШЩЪЫЬЭЮЯабвгґдђеёєжзѕиіїйјклљмнњопрстћуўфхцчџшщъыьэюяΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩαβγδεζηθικλμνξοπρστυφχψωάΆέΈέΉίϊΐΊόΌύΰϋΎΫΏĂÂÊÔƠƯăâêôơư1234567890‘?’“!”(%)[#]{@}/\-+÷×=>®©$€£¥¢:;,.*</item>
         <item name="android:textSize">@dimen/text_16s</item>
         <item name="android:fontFamily">@font/dosis_semibold</item>
 
@@ -82,7 +82,7 @@
     <style name="App_ButtonStyle" parent="Widget.AppCompat.Button.Colored">
 
         <item name="android:background">@drawable/btn_gradient</item>
-        <item name="android:elevation">@dimen/m_8dp</item>
+        <item name="android:elevation" tools:targetApi="lollipop">@dimen/m_8dp</item>
         <item name="android:fontFamily">@font/poppins_medium</item>
         <item name="android:textAllCaps">false</item>
         <item name="android:textColor">@color/btn_txt_white_color</item>
@@ -102,5 +102,25 @@
         <item name="colorButtonNormal">@android:color/white</item>
 
     </style>
+
+
+
+    <!--// for the tab-->
+
+    <style name="customTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/tabIndicatorColor</item>
+        <item name="tabIndicatorHeight">2dp</item>
+        <item name="tabPaddingStart">12dp</item>
+        <item name="tabPaddingEnd">12dp</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:dividerPadding">3dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/tab_txt_color</item>
+        <item name="android:divider">@android:color/black</item>
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabSelectedTextColor">@color/tab_txt_color</item>
+    </style>
+    <!--<item name="android:textColor">@color/tab_txt_color</item>-->
+
 
 </resources>

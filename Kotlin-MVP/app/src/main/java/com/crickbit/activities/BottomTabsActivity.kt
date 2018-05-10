@@ -103,7 +103,7 @@ class BottomTabsActivity : AppCompatActivity(), BaseFragment.FragmentNavigation,
 
     override fun getRootFragment(index: Int): Fragment {
         when (index) {
-            INDEX_RECENTS -> return RecentsFragment.newInstance(0)
+            INDEX_RECENTS -> return HomeFragment.newInstance(0)
             INDEX_FAVORITES -> return FavoritesFragment.newInstance(0)
             INDEX_NEARBY -> return NearbyFragment.newInstance(0)
             INDEX_FRIENDS -> return FriendsFragment.newInstance(0)

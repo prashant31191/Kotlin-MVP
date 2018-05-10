@@ -26,6 +26,29 @@
 
 
 
+    <!--for the tab colors-->
+    <color name="tabIndicatorColor">#111111</color>
+    <color name="tabTextColor">#111111</color>
+
+
+    <!--app theme colors-->
+
+    <color name="clr_x_Cod_Grey">#333638</color>
+    <color name="clr_x_Snow">#FCFCFC</color>
+    <color name="clr_x_Juniper">#719491</color>
+    <color name="clr_x_Zumthor">#CED5D5</color>
+    <color name="clr_x_Zumthor_2">#CED3D4</color>
+    <color name="clr_x_Alice_Blue">#F5F8FB</color>
+    <color name="clr_x_Pattens_Blue">#D9E2EB</color>
+    <color name="clr_x_Armadillo">#454B40</color>
+
+    <color name="clr_x_Baltic_Sea">#32393F</color>
+    <color name="clr_x_Old_Lavender">#81627C</color>
+    <color name="clr_x_Link_Water">#CED0D1</color>
+    <color name="clr_x_Azure">#FBFCFC</color>
+    <color name="clr_x_light_gray">#CECECE</color>
+    <color name="clr_x_gray">#757575</color>
+    <color name="clr_x_Pink">#E60F41</color>
 
 
 </resources>
